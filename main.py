@@ -1,7 +1,7 @@
-# Team member 1: edit the string below to say "Hello"
+# Team member 1: set string1 to "Hello"
 string1 = ""
 
-# Team member 2: edit the string below to say "World"
+# Team member 2: set string2 to "World"
 string2 = ""
 
 print (string1 + " " + string2)
