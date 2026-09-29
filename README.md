@@ -44,6 +44,7 @@ Both group members on one person's computer:
   - Click this button and then click `Create pull request`.
   - Make sure there are no merge conflicts. If there are, an error was made somewhere.
   - Click `Merge pull request`.
+  - Repeat for the other pull request.
 ### Step 7: Pull changes
 #### Helpful commands
 `git pull` - pull changes from the remote repository\
@@ -87,6 +88,7 @@ On your local machine in `main.py`:
   - Click this button and then click `Create pull request`.
   - Make sure there are no merge conflicts. If there are, an error was made somewhere.
   - Click `Merge pull request`.
+  - Repeat for the other pull request.
 ### Step 6: Pull changes
 #### Helpful commands
 `git pull` - pull changes from the remote repository\
