@@ -1,4 +1,4 @@
-# ColorStack BU GitHub Demo
+# ColorStackBU GitHub Demo
 In this GitHub demo you will learn how to:
 - Clone a GitHub repository onto your local machine
 - Create branches
@@ -76,12 +76,11 @@ You should now have the updated `main.py` script with both changes to add `"Hell
 `git commit -m "<msg>"` - commit staged files with a message\
 `git push origin <branch-name>` - pushes your commits to a branch on the remote repository
 
-On your local machine in `main.py`:
 - Switch to `branch1`.
-- Set `string1` equal to `"Hello"`.
+- In `main.py`, set `string1` equal to `"Hello"`.
 - Stage your files, commit with message `"Add Hello"`, and push.
 - Switch to `branch2`.
-- Set `string2` equal to `"World"`.
+- In `main.py`, set `string2` equal to `"World"`.
 - Stage your files, commit with message `"Add World"`, and push.
 ### Step 5: Merge branches to the main branch with pull requests
 - On the GitHub repository, you should see two popups that say there were recent pushes to branches with a green button to make a pull request.
