@@ -11,7 +11,7 @@ Find a group of two for this demo to practice collaborating on a repository. If 
 At the end of the demo, you will need Python to run the final code after everything is merged. This is **not required** for any of the steps except for the very last one so you can understand how GitHub works just fine without it, but if you would like to download it you can do so at https://www.python.org/downloads/.
 ## Group instructions
 ### Step 1: Setup repository
-- Group member 1: fork this repository with the fork button at the top right.
+- Group member 1: press the green button in the top right that says `Use this template` and then click `Create a new repository`.
 - Group member 1: go to the repo `Settings` > `Collaborators` > `Add people` and type in group member 2's GitHub email.
 - Group member 2: accept this invitation in your email and visit the repository.
 ### Step 2: Clone repository
@@ -58,7 +58,7 @@ You should now have the updated `main.py` script with both changes to add `"Hell
 #### Congratulations! Your group has completed the GitHub demo.
 ## Solo instructions
 ### Step 1: Setup repository
-- Fork this repository with the fork button at the top right.
+- Press the green button in the top right that says `Use this template` and then click `Create a new repository`.
 ### Step 2: Clone repository
 - Click the green `Code` button and copy the URL it shows.
 - Open the command line choose a folder of choice to download the repository in (navigate folders in the command line with `cd <folder-name>` or make a new one one with `mkdir <folder-name>`).
