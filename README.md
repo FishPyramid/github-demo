@@ -6,9 +6,9 @@ In this GitHub demo you will learn how to:
 - Create pull requests on GitHub to merge branches with the main branch
 - Pull changes from the remote repository to your local machine
 
-Find a group of 2 for this demo to practice collaborating on a repository. If you cannot find a group, you can do this demo alone. 
+Find a group of two for this demo to practice collaborating on a repository. If you cannot find a group, you can do this demo alone, although it is designed for a group. 
 
-At the end of the demo, you will need Python to run the final code after everything is merged. This is **not required** for any of the steps except for the very last one so you can how GitHub works just fine without it, but if you would like to download it you can do so at https://www.python.org/downloads/.
+At the end of the demo, you will need Python to run the final code after everything is merged. This is **not required** for any of the steps except for the very last one so you can understand how GitHub works just fine without it, but if you would like to download it you can do so at https://www.python.org/downloads/.
 ## Group instructions
 ### Step 1: Setup repository
 - Group member 1: fork this repository with the fork button at the top right.
@@ -17,12 +17,11 @@ At the end of the demo, you will need Python to run the final code after everyth
 ### Step 2: Clone repository
 Both team members:
 - Click the green `Code` button and copy the URL it shows.
-- Open the command line choose a folder of choice to download the repository in (navigate folders in the command line with `cd <folder-name>` or make a new one one with `mkdir <folder-name>`).
+- Open the command line choose a folder of choice to download the repository in (navigate folders in the command line with `cd <folder-name>` or make a new one with `mkdir <folder-name>`).
   - Once you are in the folder of your choice, clone the repository with `git clone <url>` with the URL you just copied.
 ### Step 3: Create branches
 #### Helpful commands
-`git branch <name>` - creates a new branch\
-`git checkout <name>` - switches to a different branch
+`git switch -c <name>` - creates and switches to a new branch
 - Group member 1: create and switch to a new branch with the name `branch1`.
 - Group member 2: create and switch to a new branch with the name `branch2`.
 ### Step 4: Make changes
@@ -48,7 +47,7 @@ Both group members on one person's computer:
 ### Step 7: Pull changes
 #### Helpful commands
 `git pull` - pull changes from the remote repository\
-`git checkout <name>` - switches to a different branch
+`git switch <name>` - switches to a different branch
 
 Both group members:
 - Switch to the `main` branch.
@@ -60,7 +59,6 @@ You should now have the updated `main.py` script with both changes to add `"Hell
 ## Solo instructions
 ### Step 1: Setup repository
 - Fork this repository with the fork button at the top right.
-repository.
 ### Step 2: Clone repository
 - Click the green `Code` button and copy the URL it shows.
 - Open the command line choose a folder of choice to download the repository in (navigate folders in the command line with `cd <folder-name>` or make a new one one with `mkdir <folder-name>`).
@@ -72,7 +70,7 @@ repository.
 - Create a new branch with the name `branch2`.
 ### Step 4: Make changes, commit, and push
 #### Helpful commands
-`git checkout <name>` - switches to a different branch\
+`git switch <name>` - switches to a different branch\
 `git add .` - stage changed files\
 `git commit -m "<msg>"` - commit staged files with a message\
 `git push origin <branch-name>` - pushes your commits to a branch on the remote repository
@@ -92,7 +90,7 @@ On your local machine in `main.py`:
 ### Step 6: Pull changes
 #### Helpful commands
 `git pull` - pull changes from the remote repository\
-`git checkout <name>` - switches to a different branch
+`git switch <name>` - switches to a different branch
 
 - Switch to the `main` branch.
 - Pull changes
