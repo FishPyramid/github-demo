@@ -26,9 +26,12 @@ Both team members:
 - Group member 1: create and switch to a new branch with the name `branch1`.
 - Group member 2: create and switch to a new branch with the name `branch2`.
 ### Step 4: Make changes
-On your local machine in `main.py`:
+- Open `main.py` on your local machine.
+  - On Windows, you may use the command `notepad main.py`.
+  - On other operating systems, you may use the command `nano main.py`.
 - Group member 1: set `string1` equal to `"Hello"`.
 - Group member 2: set `string2` equal to `"World"`.
+- Save and close the file.
 ### Step 5: Commit and push changes
 #### Helpful commands
 `git add .` - stage changed files\
@@ -78,11 +81,14 @@ You should now have the updated `main.py` script with both changes to add `"Hell
 `git commit -m "<msg>"` - commit staged files with a message\
 `git push origin <branch-name>` - pushes your commits to a branch on the remote repository
 
+- Open `main.py` on your local machine.
+  - On Windows, you may use the command `notepad main.py`.
+  - On other operating systems, you may use the command `nano main.py`.
 - Switch to `branch1`.
-- In `main.py`, set `string1` equal to `"Hello"`.
+- In `main.py`, set `string1` equal to `"Hello"` and save the file.
 - Stage your files, commit with message `"Add Hello"`, and push.
 - Switch to `branch2`.
-- In `main.py`, set `string2` equal to `"World"`.
+- In `main.py`, set `string2` equal to `"World"` and save the file.
 - Stage your files, commit with message `"Add World"`, and push.
 ### Step 5: Merge branches to the main branch with pull requests
 - On the GitHub repository, you should see two popups that say there were recent pushes to branches with a green button to make a pull request.
